@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "indexeddb-export-import": "^2.1.5"
+  }
+}

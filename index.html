@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>E-Safe</title>
+</head>
+<body>
+    <div id="main">
+        <h3>E-Safe</h3>
+        <div class="popup center ">
+            <div class="description">
+              Please enter all credentials.
+            </div>
+        </div>
+        <div class="popup center ">
+            <div class="description">
+              Password copied to clipboard.
+            </div>
+        </div>
+        <div class="popup center ">
+            <div class="description">
+              Saved successfully.
+            </div>
+        </div>
+        <!-- <div id="feedback" title="Feedback"></div> -->
+        <a href="index.html"><img src="images/logo.png" id="logo" alt=""></a>
+        <hr>
+        <div class="pass-gen">
+            
+            <input type="text" id="password-gen" placeholder="Generate Password" readonly>
+            <img src="images/copy.png" id="copy-btn-img" title="Copy to Clipboard">
+            <img src="images/reset.png" id="generate-btn" title="Generate New Password">
+        </div>
+        <hr>
+        <div id="safe-submit">
+            <h4>Password Safe</h4>
+            <input type="text" id="website-input" placeholder="Website">
+            <img src="images/browser.png" id="tab-btn-img" title="Get Current Tab">
+            <br>
+            <input type="text" id="email-name" placeholder="Email/Name">
+            <br>
+            <input type="password" id="password-safe" placeholder="Password">
+
+        </div>
+        
+        <div id="button-area">
+            <img src="images/save2.png" id="save-btn" title="Save">
+            <a href="safe.html"><img src="images/safe2.png" id="open-safe" title="Open Safe"></a>
+        </div>
+    </div>
+    
+    <script src="index.js""></script>
+    <script src="jquery-3.6.1.min.js"></script>
+</body>
+</html>
